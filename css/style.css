@@ -2204,6 +2204,15 @@ h1{
 	background-attachment:scroll !important;
 	-webkit-background-size:cover;
 }
+.nav-button{
+	margin-top: 120px;
+}
+.nav-button span{
+	background-color: #fff;
+	top:10px;
+	right:-96px;
+	margin-top:0;
+}
 }
 
 /* ====================
@@ -2252,6 +2261,24 @@ Tablet
 .simple-page div.single-portfolio{
 	border-bottom: none;
 }
+.nav-button{
+	margin-top: 120px;
+}
+.nav-button span{
+	background-color: #fff;
+	top:10px;
+	right:-96px;
+	margin-top:0;
+}
+.nav-button{
+	margin-top: 120px;
+}
+.nav-button span{
+	background-color: #fff;
+	top:10px;
+	right:-96px;
+	margin-top:0;
+}
 }
 /* ====================
 Smartphone / small tablet
@@ -2287,6 +2314,15 @@ h2, .nobig {
 	width:220px;
     margin:5px  auto;
 }
+.nav-button{
+	margin-top: 120px;
+}
+.nav-button span{
+	background-color: #fff;
+	top:10px;
+	right:-96px;
+	margin-top:0;
+}
 
 }
 
@@ -2297,6 +2333,15 @@ Smartphone
 
 .serviseslider h3 span, .post-decor{
 	display:none;
+}
+.nav-button{
+	margin-top: 120px;
+}
+.nav-button span{
+	background-color: #fff;
+	top:10px;
+	right:-96px;
+	margin-top:0;
 }
 
 }
