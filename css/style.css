@@ -65,18 +65,14 @@ body {
 }
 .landing-page-logo {
   margin-top: 20px;
-  background-image: url(../images/logocropped.png);
+  background-image: url(../images/logocropped-removebg-preview.png);
+  /* background-image: url(../images/Woman-Ignite-Purple-Orange.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 120px;
+  height: 150px;
   width: 100%
-  /* justify-content: center;
-	align-items: center;
-	background-color: rgb(193, 109, 37);
-	box-sizing: border-box;
-	height: 120px;
-	width: 100%; */
+ 
 }
 
 .clear {
