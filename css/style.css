@@ -42,11 +42,18 @@ body {
 }
 /* #f69648 */
 
-/* .member-photo {
-	box-shadow:
-	  -50px -50px 0 -40px var(--red),
-	  50px 50px 0 -40px var(--red);
-  } */
+.member-photo {
+  padding: 0 2vw 2vw;
+  border-left: 2px;
+border-right: 2px;
+
+	border-style: solid;
+border-image: linear-gradient(to bottom, rgb(107, 6, 107), #f69648, #181818) 1 100%;
+box-shadow: 0px 60px 80px 0px rgba(246,150,72,1),
+0px 45px 26px 0px rgba(0,0,0,0.14),
+0px 15px 12px 0px rgba(246,150,72,1),
+0px 15px 12px 0px rgba(246,150,72,1);
+  }
 /* .member-photo {
 	--s: 10px; 
 	padding: var(--s);
@@ -55,14 +62,15 @@ body {
 	outline-offset: calc(-1*var(--s));
 	background: conic-gradient(from 90deg at 1px 1px,#0000 25%,#000 0);
   } */
-.member-photo {
+/* .member-photo {
   --s: 10px;
   padding: var(--s);
   border: calc(2 * var(--s)) solid #0000;
   outline: 1px solid #f69648;
   outline-offset: calc(-1 * var(--s));
   background: conic-gradient(from 90deg at 1px 1px, #0000 25%, #000 0);
-}
+ 
+} */
 .landing-page-logo {
   margin-top: 20px;
   background-image: url(../images/logocropped-removebg-preview.png);
@@ -71,8 +79,42 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   height: 150px;
-  width: 100%
- 
+  width: 100%;
+}
+
+/* button  css */
+.pulsate-fwd {
+  -webkit-animation: pulsate-fwd 0.5s ease-in-out infinite both;
+  animation: pulsate-fwd 0.5s ease-in-out infinite both;
+}
+
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
 }
 
 .clear {
@@ -689,8 +731,8 @@ About
 }
 .customNavigation a.next-slide {
   position: absolute;
-  right: 10%;
-  top: 10%;
+  left: 48%;
+  top: 82%;
   display: block;
 }
 .customNavigation a.close {
