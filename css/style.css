@@ -46,6 +46,7 @@ body {
 
 [data-tab-content] {
   display: none;
+  padding-bottom: 30px;
 }
 .active[data-tab-content] {
   display: block;
@@ -1119,7 +1120,12 @@ Team
 
 #portfolio .content {
   padding: 100px 0 0 0;
+  /* background: url(../images/raster.png); */
   background: #fff;
+  margin: 0;
+  /* color: white; */
+ 
+
 }
 #folio_container {
   position: relative;
