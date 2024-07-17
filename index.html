@@ -37,8 +37,8 @@
 	<link rel="alternate stylesheet" type="text/css" href="css/orange-style.css" title="red" media="screen" />
 
 
-
-<script src="js/tabs.js"></script>
+	<!-----tabs for services section -->
+	<script src="js/tabs.js" defer></script>
 	<!--=============== modernizr  ===============-->
 
 	<script src="js/modernizr.custom.97074.js"></script>
@@ -432,29 +432,34 @@
 
 								<div id="options" class="clear">
 
-									<ul id="filters" class="option-set" data-option-key="filter">
+									<!-- <ul id="filters" class="option-set" data-option-key="filter">
 
-										<!-- <li class="filter actcat" data-filter="all">Woman Ignite Program </li> -->
 										<li class="filter" data-filter="first">Woman Ignite Program </li>
 										<li class="filter" data-filter="category_1">Group Coaching </li>
 										<li class="filter" data-filter="category_2">Individual Coaching</li>
 										<li class="filter" data-filter="category_4">Monthly Community</li>
-										
+
+									</ul> -->
+									<ul>
+										<li data-tab-target="#homee">Woman Ignite Program</li>
+										<li data-tab-target="#group">Group Coaching</li>
+										<li data-tab-target="#individual">Individual Coaching</li>
+										<li data-tab-target="#community">Monthly Community</li>
 									</ul>
 									<div class="tab-content">
-										<div class="home">
+										<div id="homee" data-tab-content class="active">
 											<h1>Women Ignite</h1>
 											<p>This is the women ignite section</p>
 										</div>
-										<div class="group">
+										<div id="group" data-tab-content>
 											<h1>Group coaching</h1>
 											<p>This is the group coaching section</p>
 										</div>
-										<div class="individual">
+										<div id="individual" data-tab-content>
 											<h1>Individual coaching</h1>
 											<p>This is the individual coaching</p>
 										</div>
-										<div class="community">
+										<div id="community" data-tab-content>
 											<h1>Monthly community </h1>
 											<p>This is the monthly community</p>
 										</div>

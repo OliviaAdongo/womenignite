@@ -42,6 +42,17 @@ body {
 }
 /* #f69648 */
 
+
+/* Tabs css */
+
+[data-tab-content]{
+  display: none;
+}
+.active[data-tab-content]{
+  display: block;
+}
+
+
 .member-photo {
   padding: 0 2vw 2vw;
   border-left: 2px;
