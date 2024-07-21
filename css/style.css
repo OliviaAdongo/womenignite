@@ -283,14 +283,15 @@ textarea {
 }
 
 .list-item {
-  line-height: 4;
-  color: #aaa;
+  line-height: 5;
+  text-align: left;
+  color: #9a9494;
 }
 
 .contact-text {
-  font: 300 18px "Lato", sans-serif;
+  /* font: 300 18px "Lato", sans-serif; */
   letter-spacing: 1.9px;
-  color: #bbb;
+  color: rgb(92, 90, 90);
 }
 
 .place {
@@ -306,7 +307,7 @@ textarea {
 }
 
 .contact-text a {
-  color: #bbb;
+  color:rgb(92, 90, 90);
   text-decoration: none;
   transition-duration: 0.2s;
 }
