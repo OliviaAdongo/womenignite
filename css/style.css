@@ -29,6 +29,7 @@ html {
   overflow-x: hidden !important;
   height: 100%;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -989,10 +990,12 @@ About
 #about {
   overflow: hidden;
   display: block;
+ 
 }
 #about .content {
   padding: 50px 0 0 0;
-  background: #fff;
+  background: #fff; 
+  
 }
 #about .item .grid-2 p {
   text-align: justify;
@@ -2715,6 +2718,12 @@ Tablet / netbooks
     right: -96px;
     margin-top: 0;
   }
+  .customNavigation a.next-slide {
+  /* position: absolute; */
+  left: 1.5%;
+  top: 94%;
+  display: block;
+}
 }
 
 /* ====================
@@ -2782,11 +2791,18 @@ Tablet
     right: -96px;
     margin-top: 0;
   }
+    .customNavigation a.next-slide {
+  /* position: absolute; */
+  left: 1.5%;
+  top: 88%;
+  display: block;
+}
 }
 /* ====================
 Smartphone / small tablet
 --------------------------------------------------------------*/
 @media only screen and (max-width: 540px) {
+
   h2,
   .nobig {
     font-size: 1.8em;
@@ -2827,6 +2843,13 @@ Smartphone / small tablet
     right: -96px;
     margin-top: 0;
   }
+    .customNavigation a.next-slide {
+  position: absolute;
+  left: 1.5%;
+  top: 60%;
+  display: block;
+}
+
 }
 
 /* ====================
@@ -2837,6 +2860,7 @@ Smartphone
   .post-decor {
     display: none;
   }
+
   .nav-button {
     margin-top: 120px;
   }
@@ -2846,6 +2870,14 @@ Smartphone
     right: -96px;
     margin-top: 0;
   }
+  /* nextslideee */
+    .customNavigation a.next-slide {
+  position: absolute;
+  left: 1.5%;
+  top: 94%;
+  display: block;
+}
+
 }
 
 /* ====================
