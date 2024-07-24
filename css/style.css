@@ -182,7 +182,6 @@ body {
 
 /* CONTACT US SECTION CSS */
 
-
 #contact {
   width: 100%;
   /* background-color: pink; */
@@ -218,7 +217,8 @@ body {
   font-family: "Lato";
   font-weight: 400;
 }
-#email, #namee{
+#email,
+#namee {
   height: 60px;
 }
 .form-control,
@@ -228,7 +228,6 @@ input {
   border-radius: 10px;
   padding: 20px;
   border: none;
- 
 }
 .form-control,
 textarea {
@@ -308,7 +307,7 @@ textarea {
 }
 
 .contact-text a {
-  color:rgb(92, 90, 90);
+  color: rgb(92, 90, 90);
   text-decoration: none;
   transition-duration: 0.2s;
 }
@@ -422,7 +421,10 @@ hr {
   textarea {
     margin: 0 auto;
   }
-
+  .form-control,
+  input {
+    margin-top: 20px;
+  }
   .name,
   .email,
   textarea {
@@ -990,12 +992,10 @@ About
 #about {
   overflow: hidden;
   display: block;
- 
 }
 #about .content {
   padding: 50px 0 0 0;
-  background: #fff; 
-  
+  background: #fff;
 }
 #about .item .grid-2 p {
   text-align: justify;
@@ -2719,11 +2719,11 @@ Tablet / netbooks
     margin-top: 0;
   }
   .customNavigation a.next-slide {
-  /* position: absolute; */
-  left: 1.5%;
-  top: 94%;
-  display: block;
-}
+    /* position: absolute; */
+    left: 1.5%;
+    top: 94%;
+    display: block;
+  }
 }
 
 /* ====================
@@ -2791,18 +2791,17 @@ Tablet
     right: -96px;
     margin-top: 0;
   }
-    .customNavigation a.next-slide {
-  /* position: absolute; */
-  left: 1.5%;
-  top: 88%;
-  display: block;
-}
+  .customNavigation a.next-slide {
+    /* position: absolute; */
+    left: 1.5%;
+    top: 88%;
+    display: block;
+  }
 }
 /* ====================
 Smartphone / small tablet
 --------------------------------------------------------------*/
 @media only screen and (max-width: 540px) {
-
   h2,
   .nobig {
     font-size: 1.8em;
@@ -2843,13 +2842,12 @@ Smartphone / small tablet
     right: -96px;
     margin-top: 0;
   }
-    .customNavigation a.next-slide {
-  position: absolute;
-  left: 1.5%;
-  top: 60%;
-  display: block;
-}
-
+  .customNavigation a.next-slide {
+    /* position: absolute; */
+    left: 1.5%;
+    top: 60%;
+    display: block;
+  }
 }
 
 /* ====================
@@ -2871,13 +2869,12 @@ Smartphone
     margin-top: 0;
   }
   /* nextslideee */
-    .customNavigation a.next-slide {
-  position: absolute;
-  left: 1.5%;
-  top: 94%;
-  display: block;
-}
-
+  .customNavigation a.next-slide {
+    /* position: absolute; */
+    left: 1.5%;
+    top: 94%;
+    display: block;
+  }
 }
 
 /* ====================
