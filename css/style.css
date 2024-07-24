@@ -379,6 +379,8 @@ textarea {
   letter-spacing: 1px;
   text-align: center;
 }
+.contact-text i {
+  margin-right: 10px;  }
 
 hr {
   border-color: rgba(255, 255, 255, 0.6);
@@ -409,6 +411,11 @@ hr {
     height: 60px;
     line-height: 60px;
   }
+  .contact-text a {
+    font-size: 11px;
+  }
+  .contact-text i {
+    font-size: 12px;  }
 }
 
 @media screen and (max-width: 569px) {
@@ -436,6 +443,7 @@ hr {
     margin-top: 60px;
     max-width: 280px;
   }
+ 
   .social-media-list {
     left: 0;
   }
