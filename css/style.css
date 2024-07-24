@@ -424,6 +424,7 @@ hr {
   .form-control,
   input {
     margin-top: 20px;
+    width: 400px;
   }
   .name,
   .email,
