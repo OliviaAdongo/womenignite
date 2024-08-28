@@ -1001,7 +1001,7 @@ About
 --------------------------------------------------------------*/
 
 #about {
-  overflow: hidden;
+  overflow: scroll;
   display: block;
 }
 #about .content {
@@ -2859,6 +2859,7 @@ Smartphone / small tablet
     top: 60%;
     display: block;
   }
+ 
 }
 
 /* ====================
