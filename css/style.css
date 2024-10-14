@@ -84,12 +84,12 @@ body {
 } */
 .landing-page-logo {
   margin-top: 20px;
-  background-image: url(../images/logocropped-removebg-preview.png);
-  /* background-image: url(../images/Woman-Ignite-Purple-Orange.jpg); */
+  /* background-image: url(../images/logocropped-removebg-preview.png); */
+  background-image: url(../images/newlogo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  height: 150px;
+  height: 190px;
   width: 100%;
 }
 
